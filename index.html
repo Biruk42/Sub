@@ -14,7 +14,7 @@
         <img src="images/logo.png" alt="" class="w-14" loading="lazy" />
         <p class="font-semibold">/kassayebiruk0@gmail.com</p>
       </div>
-      <div class="flex items-center gap-3">
+      <div class="hidden items-center gap-3 lg:flex">
         <a
           href="#"
           class="font-semibold text-black no-underline hover:text-gray-600"
@@ -48,7 +48,9 @@
     </nav>
     <main class="mx-auto mt-8 text-center">
       <div class="space-y-2">
-        <h1 class="mb-8 text-6xl font-bold">The Future of Subscriptions</h1>
+        <h1 class="mb-8 text-3xl font-bold md:text-5xl lg:text-6xl">
+          The Future of Subscriptions
+        </h1>
         <p class="text-xl">
           Now View all of your recurring subscriptions in one place!
         </p>
@@ -75,24 +77,30 @@
           *No personal guarantee of personal credit check required.
         </p>
       </div>
-      <div class="bottom mt-14 flex justify-center gap-7 text-left">
+      <div
+        class="mt-14 flex flex-wrap items-center justify-center space-y-4 space-x-3 md:gap-7 md:space-y-0 md:space-x-0 md:text-left lg:flex-row"
+      >
         <div class="h-fit w-44 rounded-2xl bg-[#61D4FB] py-5 px-3">
           <box-icon name="star" class="mb-3"></box-icon>
           <h3 class="text-xl font-bold">Cashback On Every Payment</h3>
         </div>
-        <div class="mt-48 h-fit w-44 rounded-2xl bg-[#FFEB8B] py-5 px-3">
+        <div class="h-fit w-44 rounded-2xl bg-[#FFEB8B] py-5 px-3 lg:mt-48">
           <box-icon name="money-withdraw" class="mb-4"></box-icon>
           <h3 class="text-2xl font-bold">Bills Payment</h3>
           <p class="mb-3 font-semibold">biruk@video.com</p>
           <div
-            class="flex h-6 w-fit items-center justify-center rounded-2xl bg-black px-2 text-sm font-bold text-white"
+            class="mx-auto flex h-6 w-fit items-center justify-center rounded-2xl bg-black px-2 text-sm font-bold text-white"
           >
             Due in 2 days
           </div>
         </div>
-        <img src="images/phone.png" alt="" class="w-80 object-cover" />
+        <img
+          src="images/phone.png"
+          alt=""
+          class="w-80 object-cover drop-shadow-2xl"
+        />
         <button
-          class="group mt-56 flex h-12 items-center rounded-3xl p-6 text-lg font-semibold shadow-2xl hover:bg-black hover:text-white active:scale-95"
+          class="group flex h-12 items-center rounded-3xl p-6 text-lg font-semibold shadow-2xl hover:bg-black hover:text-white active:scale-95 md:mt-56"
         >
           Pay now
           <box-icon
